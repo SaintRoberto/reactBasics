@@ -12,7 +12,7 @@ const ExerciseForm = ({ onChange, onSubmit, form }) => (
                     placeholder="title" 
                     name="title"
                     onChange={onChange}
-                  //  value={form.title}
+                  value={form.title}
                 />
             </div>
             <div className="form-group">
@@ -22,7 +22,7 @@ const ExerciseForm = ({ onChange, onSubmit, form }) => (
                     placeholder="description" 
                     name="description"
                     onChange={onChange}
-           //         value={form.description}
+                   value={form.description}
                 />
             </div>
             <div className="form-group">
@@ -32,7 +32,7 @@ const ExerciseForm = ({ onChange, onSubmit, form }) => (
                     placeholder="img" 
                     name="img"
                     onChange={onChange}
-           //         value={form.img}
+                   value={form.img}
                 />
             </div>
             <div className="form-row">
@@ -43,7 +43,7 @@ const ExerciseForm = ({ onChange, onSubmit, form }) => (
                         placeholder="leftColor" 
                         name="leftColor"
                         onChange={onChange}
-            //            value={form.leftColor}
+                       value={form.leftColor}
                     />
                 </div>
                 <div className="col">
@@ -53,7 +53,7 @@ const ExerciseForm = ({ onChange, onSubmit, form }) => (
                         placeholder="rightColor" 
                         name="rightColor"
                         onChange={onChange}
-                //        value={form.rightColor}
+                       value={form.rightColor}
                     />    
                 </div>
             </div>
