@@ -1,6 +1,8 @@
 import React from 'react'
 import ExerciseForm from '../components/ExerciseForm'
 import Card from '../components/Card'
+import Welcome from '../components/Welcome'
+
 import { render } from '@testing-library/react'
 
 class EjerciciosNuevo extends React.Component {
@@ -33,6 +35,10 @@ class EjerciciosNuevo extends React.Component {
                     <Card {...this.state.form} />
                 </div>           
                 <div className="col-sm">
+                    <Welcome 
+                        username="WELCOME TO MMX"
+                        data="test de react"
+                    />
                     <ExerciseForm
                         onChange = {this.handleChange}
                         form = {this.state.form}

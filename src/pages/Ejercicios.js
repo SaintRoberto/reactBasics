@@ -2,6 +2,8 @@ import React from 'react'
 import Welcome from '../components/Welcome'
 import ExcerciseList from '../components/ExcerciseList'
 import BotonLinkc from '../components/BotonLink'
+import ExerciseForm from '../components/ExerciseForm'
+
 
 class Ejercicios extends React.Component{
    state = {
@@ -56,7 +58,8 @@ class Ejercicios extends React.Component{
                 />
                <ExcerciseList 
                     exercises = {this.state.datos}
-                />                
+                />       
+                         
 
                 <BotonLinkc 
                         img = "https://firebasestorage.googleapis.com/v0/b/tutoriales-e4830.appspot.com/o/add.png?alt=media&token=fbe1d973-4b4f-42d8-b76e-2c4354f6ed9d"
